@@ -1,5 +1,5 @@
 TimeQuest Timing Analyzer report for fpga_clock
-Fri Nov 16 22:32:21 2018
+Wed Nov 21 13:03:50 2018
 Quartus II 64-Bit Version 13.1.0 Build 162 10/23/2013 SJ Full Version
 
 
@@ -113,12 +113,12 @@ applicable agreement for further details.
 ; Number detected on machine ; 8           ;
 ; Maximum allowed            ; 4           ;
 ;                            ;             ;
-; Average used               ; 1.43        ;
+; Average used               ; 1.00        ;
 ; Maximum used               ; 4           ;
 ;                            ;             ;
 ; Usage by Processor         ; % Time Used ;
 ;     Processor 1            ; 100.0%      ;
-;     Processors 2-4         ;  14.3%      ;
+;     Processors 2-4         ; < 0.1%      ;
 ;     Processors 5-8         ;   0.0%      ;
 +----------------------------+-------------+
 
@@ -1384,7 +1384,7 @@ No non-DPA dedicated SERDES Receiver circuitry present in device or used in desi
 Info: *******************************************************************
 Info: Running Quartus II 64-Bit TimeQuest Timing Analyzer
     Info: Version 13.1.0 Build 162 10/23/2013 SJ Full Version
-    Info: Processing started: Fri Nov 16 22:32:14 2018
+    Info: Processing started: Wed Nov 21 13:03:37 2018
 Info: Command: quartus_sta fpga_clock -c fpga_clock
 Info: qsta_default_script.tcl version: #1
 Info (11104): Parallel Compilation has detected 8 hyper-threaded processors. However, the extra hyper-threaded processors will not be used by default. Parallel Compilation will use 4 of the 4 physical processors detected instead.
@@ -1477,9 +1477,9 @@ Info (332146): Worst-case minimum pulse width slack is -0.088
 Info (332102): Design is not fully constrained for setup requirements
 Info (332102): Design is not fully constrained for hold requirements
 Info: Quartus II 64-Bit TimeQuest Timing Analyzer was successful. 0 errors, 7 warnings
-    Info: Peak virtual memory: 5009 megabytes
-    Info: Processing ended: Fri Nov 16 22:32:21 2018
-    Info: Elapsed time: 00:00:07
+    Info: Peak virtual memory: 5006 megabytes
+    Info: Processing ended: Wed Nov 21 13:03:50 2018
+    Info: Elapsed time: 00:00:13
     Info: Total CPU time (on all processors): 00:00:08
 
 
