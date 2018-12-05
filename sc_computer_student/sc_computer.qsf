@@ -167,6 +167,9 @@ set_instance_assignment -name IO_STANDARD "3.3-V LVTTL" -to SW0
 set_instance_assignment -name IO_STANDARD "3.3-V LVTTL" -to SW1
 set_global_assignment -name POWER_PRESET_COOLING_SOLUTION "23 MM HEAT SINK WITH 200 LFPM AIRFLOW"
 set_global_assignment -name POWER_BOARD_THERMAL_MODEL "NONE (CONSERVATIVE)"
+set_global_assignment -name VERILOG_FILE source/o_out_port.v
+set_global_assignment -name VERILOG_FILE source/i_out_port.v
+set_global_assignment -name VERILOG_FILE source/io_in_port.v
 set_global_assignment -name VERILOG_FILE source/sc_computer_io.v
 set_global_assignment -name VERILOG_FILE source/sc_instmen.v
 set_global_assignment -name VERILOG_FILE source/sc_datamem_io.v
@@ -186,7 +189,6 @@ set_global_assignment -name VERILOG_FILE source/clock_and_mem_clock.v
 set_global_assignment -name VERILOG_FILE source/cla32.v
 set_global_assignment -name VERILOG_FILE source/alu.v
 set_global_assignment -name VERILOG_FILE source/sevenseg.v
-set_global_assignment -name VERILOG_FILE source/out_port.v
 set_global_assignment -name VERILOG_FILE source/io_output.v
 set_global_assignment -name VERILOG_FILE source/io_input.v
 set_global_assignment -name VERILOG_FILE source/in_port.v
