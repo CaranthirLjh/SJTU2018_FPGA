@@ -1,0 +1,19 @@
+<?xml version="1.0" ?>
+<LOG_ROOT>
+	<PROJECT NAME="FPGA_VgaGame">
+		<CBX_INST_ENTRY INSTANCE_NAME="|vga_game|lpm_divide:Mod2" CBX_FILE_NAME="lpm_divide_k3m.tdf"/>
+		<CBX_INST_ENTRY INSTANCE_NAME="|vga_game|out_port_score:HighestScoreBoard|lpm_divide:Mod1" CBX_FILE_NAME="lpm_divide_l3m.tdf"/>
+		<CBX_INST_ENTRY INSTANCE_NAME="|vga_game|out_port_score:MissedBallBoard|lpm_divide:Mod1" CBX_FILE_NAME="lpm_divide_l3m.tdf"/>
+		<CBX_INST_ENTRY INSTANCE_NAME="|vga_game|out_port_score:TmpScoreBoard|lpm_divide:Mod0" CBX_FILE_NAME="lpm_divide_l3m.tdf"/>
+		<CBX_INST_ENTRY INSTANCE_NAME="|vga_game|lpm_divide:Mod3" CBX_FILE_NAME="lpm_divide_k3m.tdf"/>
+		<CBX_INST_ENTRY INSTANCE_NAME="|vga_game|out_port_score:TmpScoreBoard|lpm_divide:Mod1" CBX_FILE_NAME="lpm_divide_l3m.tdf"/>
+		<CBX_INST_ENTRY INSTANCE_NAME="|vga_game|lpm_divide:Mod0" CBX_FILE_NAME="lpm_divide_k3m.tdf"/>
+		<CBX_INST_ENTRY INSTANCE_NAME="|vga_game|lpm_divide:Mod4" CBX_FILE_NAME="lpm_divide_k3m.tdf"/>
+		<CBX_INST_ENTRY INSTANCE_NAME="|vga_game|out_port_score:HighestScoreBoard|lpm_divide:Div0" CBX_FILE_NAME="lpm_divide_ibm.tdf"/>
+		<CBX_INST_ENTRY INSTANCE_NAME="|vga_game|out_port_score:MissedBallBoard|lpm_divide:Div0" CBX_FILE_NAME="lpm_divide_ibm.tdf"/>
+		<CBX_INST_ENTRY INSTANCE_NAME="|vga_game|lpm_divide:Mod1" CBX_FILE_NAME="lpm_divide_k3m.tdf"/>
+		<CBX_INST_ENTRY INSTANCE_NAME="|vga_game|out_port_score:HighestScoreBoard|lpm_divide:Mod0" CBX_FILE_NAME="lpm_divide_l3m.tdf"/>
+		<CBX_INST_ENTRY INSTANCE_NAME="|vga_game|out_port_score:MissedBallBoard|lpm_divide:Mod0" CBX_FILE_NAME="lpm_divide_l3m.tdf"/>
+		<CBX_INST_ENTRY INSTANCE_NAME="|vga_game|out_port_score:TmpScoreBoard|lpm_divide:Div0" CBX_FILE_NAME="lpm_divide_ibm.tdf"/>
+	</PROJECT>
+</LOG_ROOT>

@@ -1,0 +1,16 @@
+<?xml version="1.0" ?>
+<LOG_ROOT>
+	<PROJECT NAME="FPGA_pipeline">
+		<CBX_INST_ENTRY INSTANCE_NAME="|FPGA_pipeline|i_out_port:inst3|lpm_divide:Div0" CBX_FILE_NAME="lpm_divide_ibm.tdf"/>
+		<CBX_INST_ENTRY INSTANCE_NAME="|FPGA_pipeline|i_out_port:inst3|lpm_divide:Mod3" CBX_FILE_NAME="lpm_divide_l3m.tdf"/>
+		<CBX_INST_ENTRY INSTANCE_NAME="|FPGA_pipeline|o_out_port:inst4|lpm_divide:Mod0" CBX_FILE_NAME="lpm_divide_l3m.tdf"/>
+		<CBX_INST_ENTRY INSTANCE_NAME="|FPGA_pipeline|i_out_port:inst3|lpm_divide:Div1" CBX_FILE_NAME="lpm_divide_ibm.tdf"/>
+		<CBX_INST_ENTRY INSTANCE_NAME="|FPGA_pipeline|i_out_port:inst3|lpm_divide:Mod0" CBX_FILE_NAME="lpm_divide_l3m.tdf"/>
+		<CBX_INST_ENTRY INSTANCE_NAME="|FPGA_pipeline|i_out_port:inst3|lpm_divide:Mod2" CBX_FILE_NAME="lpm_divide_l3m.tdf"/>
+		<CBX_INST_ENTRY INSTANCE_NAME="|FPGA_pipeline|o_out_port:inst4|lpm_divide:Div0" CBX_FILE_NAME="lpm_divide_ibm.tdf"/>
+		<CBX_INST_ENTRY INSTANCE_NAME="|FPGA_pipeline|o_out_port:inst4|lpm_divide:Mod1" CBX_FILE_NAME="lpm_divide_l3m.tdf"/>
+		<CBX_INST_ENTRY INSTANCE_NAME="|FPGA_pipeline|pipeline_computer:inst|pipe_stage_if:if_stage|lpm_rom_irom:irom|altsyncram:altsyncram_component" CBX_FILE_NAME="altsyncram_0ki1.tdf"/>
+		<CBX_INST_ENTRY INSTANCE_NAME="|FPGA_pipeline|pipeline_computer:inst|pipe_stage_mem:mem_stage|lpm_ram_dq_dram:dram|altsyncram:altsyncram_component" CBX_FILE_NAME="altsyncram_d2m1.tdf"/>
+		<CBX_INST_ENTRY INSTANCE_NAME="|FPGA_pipeline|i_out_port:inst3|lpm_divide:Mod1" CBX_FILE_NAME="lpm_divide_l3m.tdf"/>
+	</PROJECT>
+</LOG_ROOT>
